@@ -84,15 +84,21 @@ const Home = () => {
             </Link>
           </Button>
           <div className=" flex flex-row gap-5 text-3xl my-3 pl-2 ">
-            <BsFacebook
-              className={`hover:text-[#FF6464] duration-300 ease-in `}
-            />
-            <BsGithub
-              className={`hover:text-[#FF6464] duration-300 ease-in `}
-            />
-            <BsInstagram
-              className={`hover:text-[#FF6464] duration-300 ease-in `}
-            />
+            <a href="https://www.facebook.com/sintsint.h/">
+              <BsFacebook
+                className={`hover:text-[#FF6464] duration-300 ease-in `}
+              />
+            </a>
+            <a href="https://github.com/sint-sint-hlaing">
+              <BsGithub
+                className={`hover:text-[#FF6464] duration-300 ease-in `}
+              />
+            </a>
+            <a href="https://www.instagram.com/sintsint_h/">
+              <BsInstagram
+                className={`hover:text-[#FF6464] duration-300 ease-in `}
+              />
+            </a>
           </div>
         </div>
         <div className=" border-4 border-[#FF6464] h-[330px] w-[310px] rounded-full relative">
