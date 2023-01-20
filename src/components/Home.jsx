@@ -2,7 +2,7 @@ import { useAnimation, motion } from "framer-motion";
 import React, { useContext, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import { ThemeContext } from "../App";
-import me from "../images/me-removebg.png";
+import me from "../images/me.jpg";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 import { BiChevronsDown } from "react-icons/bi";
 import { GoPrimitiveDot } from "react-icons/go";
@@ -110,7 +110,7 @@ const Home = () => {
           <img
             src={me}
             alt=""
-            className="absolute  h-[324px] w-[304px] rounded-full"
+            className="absolute object-cover -rotate-6  h-[324px] w-[304px] rounded-full"
           />
           <div
             className={`w-[100px] h-[110px]  rounded-full absolute -top-7 duration-500 ease-in ${
